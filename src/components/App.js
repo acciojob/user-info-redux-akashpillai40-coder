@@ -30,11 +30,11 @@ const App = () => {
    
 
      {/* Values from store */}
-     <div className="output">
-          <p>Name:{user.name}</p>
-          <p>Email:{user.email}</p>
-     </div>
-     
+    
+<div className="output">
+  <p>Name - {user.name}</p>
+  <p>Email - {user.email}</p>
+</div>
     </div>
   )
 }
